@@ -62,7 +62,7 @@ if((Test-Path "$setupFolder\G7_CR_Technologies-license.swl") -eq $false)
     }    
 }
 
-Import-Module WASP
+Import-Module WASP -Force
 Start-Process -FilePath "C:\WEBRDPCLIENT234\training\webRDP-Client_1.2.0.42-32.exe"
 Start-Sleep -Seconds 20
 $ProcessName = Get-Process | Where-Object { $Name_ -Like 'webRDP-Client_1.2.0.42-32*' } |foreach {$Name_}
