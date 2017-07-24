@@ -1,55 +1,39 @@
-﻿
-Skip to content
-This repository
-
-    Pull requests
-    Issues
-    Marketplace
-    Gist
-
-    @bulletformyvalentine
-
-59
-110
-
-    152
-
-Azure/azure-devtestlab
-Code
-Issues 6
-Pull requests 8
-Projects 0
-Wiki
-azure-devtestlab/Artifacts/windows-notepadplusplus/ChocolateyPackageInstaller.ps1
-e66139b on Nov 23, 2016
-@rzander rzander ConfigMgr artifact updated (#144)
-@leovms
-@rzander
-@mmydland
-@jaymarf
-270 lines (211 sloc) 6.38 KB
 <##################################################################################################
+
     Description
     ===========
+
 	- This script does the following - 
 		- installs chocolatey
 		- installs specified chocolatey packages
+
 	- This script generates logs in the following folder - 
 		- %ALLUSERSPROFILE%\ChocolateyPackageInstaller-{TimeStamp}\Logs folder.
+
+
     Usage examples
     ==============
     
     Powershell -executionpolicy bypass -file ChocolateyPackageInstaller.ps1
+
+
     Pre-Requisites
     ==============
+
     - Ensure that the powershell execution policy is set to unrestricted (@TODO).
+
+
     Known issues / Caveats
     ======================
     
     - No known issues.
+
+
     Coming soon / planned work
     ==========================
+
     - N/A.    
+
 ##################################################################################################>
 
 #
@@ -283,8 +267,3 @@ catch
     # throw so that startChocolatey.ps1 can handle the state correctly.
     throw
 }
-
-    Contact GitHub API Training Shop Blog About 
-
-    © 2017 GitHub, Inc. Terms Privacy Security Status Help 
-
