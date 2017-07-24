@@ -4,8 +4,7 @@
   "description": "Installs Notepad++",  
   "tags": [  
     "Windows",  
-    "Notepad++"  
-      
+    "Notepad++"    
   ],  
   "targetOsType": "Windows",  
   "runCommand": {  
