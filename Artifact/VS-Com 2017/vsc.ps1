@@ -7,7 +7,7 @@
  
    
 }
-$url = 'https://cheekandchongsupinthesmoke-my.sharepoint.com/personal/bulletformyvalentine_cheekandchongsupinthesmoke_onmicrosoft_com/_layouts/15/guestaccess.aspx?docid=1197a59ab31594530b932e6fa1b79ea0e&authkey=AQJTZdnA_Y4J7gnCeW6wtsM'
+$url = 'https://prodartifact.blob.core.windows.net/artifacts/vs_Community.exe'
 $codeSetupUrl = "$PSScriptroot\10meg.exe"
 $vscodeSetup = "${env:Temp}\vs_community.exe"
 
