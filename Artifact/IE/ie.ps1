@@ -26,7 +26,7 @@ function WaitForFile($File) {
 #$DesktopPath = [System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::Desktop)
 
 #$setupFolder = "$env:Public\Desktop\guide"
-$setupFolder= "$($env:Public)\Desktop\Important iexplore"
+$setupFolder= "$($env:Public)\Desktop\iexplore"
 Create-Folder "$setupFolder"
 
 
