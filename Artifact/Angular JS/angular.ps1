@@ -26,7 +26,7 @@ function WaitForFile($File) {
 if((Test-Path "C:\Website\angular.min") -eq $false)
 {
     Write-Host "Downloading."
-    Download-File "https://mylibrary123.blob.core.windows.net/reposit/angular.min.js"
+    Download-File "https://mylibrary123.blob.core.windows.net/reposit/angular.min.js" "C:\Website\angular.min"
     
 }
 
